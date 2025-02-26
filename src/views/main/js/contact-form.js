@@ -10,7 +10,7 @@ function createFormModals() {
     // Create modal container if it doesn't exist
     if (!document.getElementById('formMessageModal')) {
         const modalHTML = `
-            <div id="formMessageModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center px-4">
+            <div id="formMessageModal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center px-4">
                 <div class="bg-[#1a1a1a] border border-white/20 rounded-xl p-6 max-w-md w-full">
                     <div class="text-center mb-4">
                         <h3 id="modalTitle" class="text-xl font-semibold"></h3>
