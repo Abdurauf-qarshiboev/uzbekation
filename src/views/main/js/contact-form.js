@@ -91,8 +91,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 + `✉️ <b>Email:</b> ${email}\n`
                 + `📝 <b>Message:</b>\n${message}`;
         
-        const botToken = '7476597995:AAGLIEyjkVdgt8te11IXvlfWFGGQbIXA_tU';
-        const chatId = '1316712488';
+        const botToken = "7301028305:AAHXqENO9SBIhQW9XbL0LJ8P4_ptE5qEFOM";
+        const chatId = "1213188534";
 
         try {
             const response = await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
