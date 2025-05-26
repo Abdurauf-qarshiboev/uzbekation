@@ -16,10 +16,10 @@ const fillFields = () => {
   const user = users.find((user) => user.email === loggedInEmail);
 
   if (user) {
-    document.getElementById("nameInput").value = user.name || ""; 
-    document.getElementById("emailInput").value = user.email || ""; 
-    document.getElementById("passwordInput").value = user.password || ""; 
-    document.getElementById("phoneInput").value = user.phone || ""; 
+    document.getElementById("nameInput").value = user.name || "";
+    document.getElementById("emailInput").value = user.email || "";
+    document.getElementById("passwordInput").value = user.password || "";
+    document.getElementById("phoneInput").value = user.phone || "";
   } else {
     // If user is not found, clear session and redirect
     localStorage.removeItem("loggedInUser");
@@ -52,6 +52,6 @@ const handleLogOut = () => {
   // Perform logout when clicking confirm log out button inside modal
   confirmLogoutBtn.addEventListener("click", function () {
     localStorage.removeItem("loggedInUser"); // Remove session
-    window.location.href = "./home.html"; // Redirect to login page
+    window.location.href = "./index.html"; // Redirect to login page
   });
 };

@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     );
 
     setTimeout(() => {
-      window.location.href = "../main/home.html";
+      window.location.href = "../main/index.html";
     }, 3000);
   });
 });
