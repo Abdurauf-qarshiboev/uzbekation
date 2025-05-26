@@ -8,8 +8,8 @@
     "@tailwindcss/forms": "^0.5.10"
   },
   "scripts": {
-    "build": "cp src/views/main/*.html src/",
-    "dev": "npx serve src",
-    "start": "npx serve src"
+    "build": "cp -r src/* . && cp src/views/main/*.html .",
+    "dev": "npx serve .",
+    "start": "npx serve ."
   }
 }
