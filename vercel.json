@@ -1,5 +1,5 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "src/views/main",
+  "outputDirectory": "src",
   "installCommand": "npm install"
 }
